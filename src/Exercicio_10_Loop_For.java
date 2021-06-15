@@ -15,9 +15,12 @@ public class Exercicio_10_Loop_For {
 		Scanner leitor = new Scanner(System.in);
 		
 		String nome = "", setor = "";
-		int escolha, placa;
+		int escolha, placa, func;
 		
-		for (int i = 0; i < 5; i++)
+		System.out.println("Informar quantidade de Funcionários existem na empresa:");
+		func = leitor.nextInt();
+		
+		for (int i = 0; i < func; i++)
 		{
 			System.out.println("Qual seu nome?");
 			nome = leitor.next();
