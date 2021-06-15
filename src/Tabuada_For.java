@@ -6,7 +6,7 @@ public class Tabuada_For {
 		
 		Scanner leitor = new Scanner(System.in);
 		
-		int n, tabuada = 1;
+		int n, tabuada;
 		
 		System.out.println("Tabuada com Loop For\n");
 		
