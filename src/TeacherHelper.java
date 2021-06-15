@@ -18,7 +18,7 @@ public class TeacherHelper {
 			System.out.println("1 - Calcular salário");
 			System.out.println("2 - Calcular média de notas dos alunos");
 			System.out.println("3 - Exibir a motivação do dia!");
-			System.out.println("4 - Encerrar aplicação.");
+			System.out.println("4 - Encerrar aplicação...");
 			opcao = leitor.nextInt();
 			
 			switch (opcao) {
