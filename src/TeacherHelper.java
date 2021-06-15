@@ -84,6 +84,9 @@ public class TeacherHelper {
 				case 5:
 					System.out.println("Obrigado por se colocar à disposição do saber!");
 					break;
+				case 6:
+					System.out.println("Errado ( )Tá (x) Não Tá!");
+					break;
 					
 				}
 				
